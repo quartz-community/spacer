@@ -1,23 +1,21 @@
 {
-  "name": "@quartz-community/plugin-template",
-  "version": "0.1.0",
-  "description": "Template repository for Quartz community plugins.",
+  "name": "@quartz-community/spacer",
+  "version": "1.0.0",
+  "description": "A flexible spacer component for Quartz layouts.",
   "type": "module",
   "license": "MIT",
   "author": "Quartz Community",
   "homepage": "https://quartz.jzhao.xyz",
   "repository": {
     "type": "git",
-    "url": "https://github.com/quartz-community/plugin-template"
+    "url": "https://github.com/quartz-community/spacer"
   },
   "keywords": [
     "quartz",
     "quartz-plugin",
-    "plugin-template",
-    "remark",
-    "rehype",
-    "mdast",
-    "hast"
+    "spacer",
+    "layout",
+    "component"
   ],
   "files": [
     "dist",
@@ -66,19 +64,9 @@
     }
   },
   "dependencies": {
-    "@quartz-community/types": "github:quartz-community/types",
-    "mdast-util-find-and-replace": "^3.0.1",
-    "rehype-slug": "^6.0.0",
-    "remark-gfm": "^4.0.1",
-    "remark-parse": "^11.0.0",
-    "remark-stringify": "^11.0.0",
-    "unified": "^11.0.5",
-    "unist-util-visit": "^5.0.0",
-    "vfile": "^6.0.3"
+    "@quartz-community/types": "github:quartz-community/types"
   },
   "devDependencies": {
-    "@types/hast": "^3.0.4",
-    "@types/mdast": "^4.0.4",
     "@types/node": "^24.10.0",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",
@@ -89,6 +77,25 @@
     "tsup": "^8.5.0",
     "typescript": "^5.9.3",
     "vitest": "^2.1.9"
+  },
+  "quartz": {
+    "name": "spacer",
+    "displayName": "Spacer",
+    "description": "A flexible spacer component for Quartz layouts.",
+    "category": "component",
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": [],
+    "defaultOrder": 15,
+    "defaultEnabled": true,
+    "defaultOptions": {},
+    "components": {
+      "Spacer": {
+        "displayName": "Spacer",
+        "defaultPosition": "left",
+        "defaultPriority": 15
+      }
+    }
   },
   "engines": {
     "node": ">=22",
