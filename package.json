@@ -64,9 +64,7 @@
     }
   },
   "dependencies": {
-    "@quartz-community/types": "github:quartz-community/types",
-    "tsup": "^8.5.0",
-    "typescript": "^5.9.3"
+    "@quartz-community/types": "github:quartz-community/types"
   },
   "devDependencies": {
     "@types/node": "^24.10.0",
@@ -77,7 +75,9 @@
     "preact": "^10.28.2",
     "prettier": "^3.6.2",
     "sass": "^1.97.3",
-    "vitest": "^2.1.9"
+    "vitest": "^2.1.9",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.3"
   },
   "quartz": {
     "name": "spacer",
