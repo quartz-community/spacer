@@ -1,5 +1,2 @@
-import { QuartzComponentConstructor } from '@quartz-community/types';
-
-declare const Spacer: QuartzComponentConstructor;
-
-export { Spacer };
+export { Spacer } from './components/index.js';
+import '@quartz-community/types';
