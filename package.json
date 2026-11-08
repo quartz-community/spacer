@@ -1,6 +1,6 @@
 {
   "name": "@quartz-community/spacer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A flexible spacer component for Quartz layouts.",
   "type": "module",
   "license": "MIT",
