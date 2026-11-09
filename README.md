@@ -5,19 +5,23 @@ A component plugin that renders a flexible spacer element that pushes adjacent c
 ## Installation
 
 ```bash
-npx quartz plugin add github:quartz-community/spacer
+npx quartz plugin add @quartz-community/spacer
 ```
+
+The spacer is already in Quartz's default configuration.
 
 ## Usage
 
 ```yaml title="quartz.config.yaml"
 plugins:
-  - source: github:quartz-community/spacer
+  - source: "@quartz-community/spacer"
     enabled: true
+    options: {}
+    order: 25
     layout:
       position: left
-      priority: 15
-      display: all
+      priority: 25
+      display: mobile-only
 ```
 
 ## Configuration
